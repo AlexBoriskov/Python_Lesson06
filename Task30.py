@@ -20,7 +20,7 @@ diff = tryType(diff)
 
 size = input ("Количество элементов: ")
 size = tryType(size)
-while size<0:
+while tryType(size)<0:
     print ("Число отрицательное. Ошибка!")
     size = input("Введите число: ")
     size = tryType(size)
